@@ -3,6 +3,7 @@
 import numpy as np
 import pickle
 import os
+from collections.abc import Mapping
 from flask import Flask, request, render_template
 
 # Load ML model
